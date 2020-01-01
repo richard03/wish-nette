@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "43f6ee5c83d31430700a593cff792e79",
+    "content-hash": "222c7c8b0386a339e6a76f439c0ad30b",
     "packages": [
         {
             "name": "dg/adminer-custom",
