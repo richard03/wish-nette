@@ -1,8 +1,12 @@
-{* Home page *}
+{* WishList page *}
 
 {block content}
-	<h2><a href="{link WishList:show}">WishList</a></h2>
-	<h2><a href="{link WishList:create}">Create WishList</a></h2>
+	<h1 n:block="title">Tři přání</h1>
+
+	{control wishListForm}
+
+	<a n:href="show $ownerId">Cancel</a>
+
 {/block}
 
 {block scripts}

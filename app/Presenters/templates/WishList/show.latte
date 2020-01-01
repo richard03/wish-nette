@@ -1,0 +1,21 @@
+{* WishList page *}
+
+{block content}
+	<h1 n:block="title">Tři přání</h1>
+
+	<div class="wish" n:foreach="$wishes as $wish">
+		<div>{$wish->description}</div>
+	</div>
+
+	<a n:href="edit $ownerId">Edit</a>
+{/block}
+
+{block scripts}
+	{include parent}
+	<script>
+	</script>
+{/block}
+
+{block head}
+	<link rel="stylesheet" href="{$basePath}/css/custom.css"></link>
+{/block}
